@@ -195,7 +195,7 @@ storedList.addEventListener('click', (e)=>{
 
         if(storedCount <= 0 ){
             storedNote.textContent = '0'
-            return
+           
           
         }
         showingNotications()
@@ -240,13 +240,13 @@ cardList.addEventListener('click', (e)=>{
         if(cardCount <= 0){
 
             cardNote.textContent = '0'
-            return
+           
             
         }
         if(newCount <= 0){
 
             newNote.textContent = '0'
-            return
+           
            
         }
         showingNotications()
