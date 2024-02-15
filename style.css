@@ -357,6 +357,10 @@ body{
   
     .notifications{
         padding: 5px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        justify-content: space-between;width: 100%;
      
     }
     .notifications p{
@@ -384,11 +388,41 @@ body{
         padding: 10px;
         width: 100%;
         border-radius: 10px;
-        height: 350px;
+        height: 400px;
         display: none;
       
     
     }
+    li{
+        padding: 2px;
+    }
+    .list-items .id-itemName p, .d-list-items .id-itemName p,
+    .c-list-items .id-itemName p{
+        font-size: 12px;
+        margin-left: 2em;
+        text-transform: capitalize;
+    }
+
+    .list-items li, .d-list-items li, .c-list-items li {
+      padding: 5px;
+       
+    }
+    .list-items .btns  button, .d-list-items .btns button,
+.c-list-items .btns button{
+    padding: 1.2px;
+    width: auto;
+    border: none;
+    font-size: 12px;
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+h2{
+    font-size: 17px;
+    text-align: center;
+}
+
+
 }
 
 

@@ -240,11 +240,13 @@ cardList.addEventListener('click', (e)=>{
         if(cardCount <= 0){
 
             cardNote.textContent = '0'
+            return
             
         }
         if(newCount <= 0){
 
             newNote.textContent = '0'
+            return
            
         }
         showingNotications()
@@ -289,6 +291,7 @@ function renderingDeletedItem(rand){
         <button id="restore">Restore</button>
         <button class="rem" id="remove">Delete</button>
     </div>
+    </li>
 
     `
 
